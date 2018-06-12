@@ -191,8 +191,7 @@ footer {
 
 @media only screen and (max-width: 679px) and (min-width: 350px) {
 	.image {
-		width: 99%;
-		float: left;
+		width: 97.5%;
 		margin: 5px;
 		cursor: pointer;
 	}
