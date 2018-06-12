@@ -136,8 +136,8 @@ footer {
 
 #modal {
 	position: fixed;
-	width: 500px;
-	height: 500px;
+	width: 600px;
+	height: 600px;
 	background: #fff;
 	top: 40%;
 	left: 50%;
@@ -195,8 +195,19 @@ footer {
 		margin: 5px;
 		cursor: pointer;
 	}
+	.image img {
+		height: 500px;
+	}
 	#main_words h1 {
 		font-size: 3em;
+	}
+	.ig {
+		width: 15%;
+		height: 15%;
+	}
+	#modal {
+		width: 370px;
+		height: 370px;
 	}
 }
 
