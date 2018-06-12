@@ -14,7 +14,7 @@ html {
 	background-size: cover;
 	font-size: 1em;
 	font-weight: 200;
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Permanent Marker', cursive;
 	max-width: 1200px;
 	margin: auto;
 }
@@ -61,6 +61,7 @@ body {
 }
 
 header h1 {
+	font-family: 'Permanent Marker', cursive;
 	text-transform: uppercase;
 	color: black;
 	text-shadow: 2px 2px 5px lightskyblue;
@@ -84,7 +85,6 @@ header h1 {
 
 #image_container {
 	width: 100%;
-	padding: 15px;
 }
 
 #images {
@@ -92,9 +92,9 @@ header h1 {
 }
 
 .image {
-	width: 31.6%;
+	width: 32.399999%;
 	float: left;
-	margin: 10px;
+	margin: 5px;
 	cursor: pointer;
 }
 
@@ -179,30 +179,52 @@ footer {
 	display: block;
 }
 
-@media (max-width: 904px) {
+
+@media only screen and (max-width: 1088px) and (min-width: 680px) {
 	.image {
-		width: 47%;
-	}
-	header {
-		font-size: 12px;
+		width: 48.5%;
+		float: left;
+		margin: 5px;
+		cursor: pointer;
 	}
 }
 
-@media (max-width: 715px) {
-	#image_container {
-		padding: 0;
-	}
+@media only screen and (max-width: 679px) and (min-width: 350px) {
 	.image {
-		width: 94%;
+		width: 99%;
+		float: left;
+		margin: 5px;
+		cursor: pointer;
 	}
-	header {
-		font-size: 8px;
-	}
-	footer {
-		font-size: 10px;
-	}
-	.ig {
-		width: 8%;
-		height: 8%;
+	#main_words h1 {
+		font-size: 3em;
 	}
 }
+
+// @media (max-width: 904px) {
+// 	.image {
+// 		width: 47%;
+// 	}
+// 	header {
+// 		font-size: 12px;
+// 	}
+// }
+
+// @media (max-width: 715px) {
+// 	#image_container {
+// 		padding: 0;
+// 	}
+// 	.image {
+// 		width: 94%;
+// 	}
+// 	header {
+// 		font-size: 8px;
+// 	}
+// 	footer {
+// 		font-size: 10px;
+// 	}
+// 	.ig {
+// 		width: 8%;
+// 		height: 8%;
+// 	}
+// }
