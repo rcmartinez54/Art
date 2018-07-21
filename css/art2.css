@@ -71,7 +71,9 @@ header h1 {
 	padding: 20px;
 	letter-spacing: 10px;
 	font-size: 5em;
-	background: linear-gradient(to left, white, lightblue, white, lightblue, white);
+	background: url('../img/glass.png');
+	background-size: cover;
+	// background: linear-gradient(to left, white, lightblue, white, lightblue, white);
 }
 
 #click {
