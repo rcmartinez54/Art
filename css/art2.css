@@ -228,6 +228,9 @@ footer {
 		height: 370px;
 	}
 	#pop_up {
-		width: 325px;
+		width: 315px;
+	}
+	#pop_up p {
+		font-size: 16px;
 	}
 }
