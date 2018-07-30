@@ -22,9 +22,14 @@ $(document).ready(function(){
 	(function () {
 		$('#hero h1').fadeIn(500, function () {
 			$('#hero span').delay(1000).fadeIn(500);
-			console.log('hello');
+			$('#pop_up').delay(2000).fadeIn(500);
 		});
 	})();
+
+	$('.closePop').on("click", function() {
+		$('#pop_up').fadeOut(500);
+		console.log('hello');
+	});
 
     $("#images").on("click", ".image", function(){
     	let $selectedImage = $(this).find('img').attr('src'),
