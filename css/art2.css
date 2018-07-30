@@ -14,66 +14,42 @@ html {
 	background-size: cover;
 	font-size: 1em;
 	font-weight: 200;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Bangers', cursive;
 	max-width: 1200px;
 	margin: auto;
 }
 
 body {
-	background: white;
+	background: #000;
+	padding-top: 150px;
+	font-family: 'Bangers', cursive;
 }
 
-.col_1 {
-	width: 8.33%;
-}
-.col_2 {
-	width: 16.33%;
-}
-.col_3 {
-	width: 25%;
-}
-.col_4 {
-	width: 33.33%;
-}
-.col_5 {
-	width: 41.66%;
-}
-.col_6 {
-	width: 50%;
-}
-.col_7 {
-	width: 58.33%;
-}
-.col_8 {
-	width: 66.66%;
-}
-.col_9 {
-	width: 75%;
-}
-.col_10 {
-	width: 83.33%;
-}
-.col_11 {
-	width: 91.66%;
-}
-.col_12 {
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
 	width: 100%;
-}
-
-header h1 {
-	font-family: 'Permanent Marker', cursive;
 	text-transform: uppercase;
-	color: black;
-	text-shadow: 2px 2px 5px lightskyblue;
-	width: 98%;
-	margin: 12px auto;
+	color: #000;
+	margin: auto;
 	text-align: center;
 	padding: 20px;
 	letter-spacing: 10px;
-	font-size: 5em;
 	background: url('../img/glass.png');
 	background-size: cover;
-	// background: linear-gradient(to left, white, lightblue, white, lightblue, white);
+}
+
+header h1 {
+	margin: 0;
+	font-size: 6em;
+	text-shadow: 2px 2px 5px lightskyblue;
+	display: none;
+}
+
+header span {
+	font-size: 18px;
+	display: none;
 }
 
 #click {
@@ -111,11 +87,12 @@ footer {
 	text-align: center;
 	width: 98%;
 	margin: 10px auto;
-	padding: 12px;
+	padding-top: 60px;
+	padding-bottom: 20px;
 	letter-spacing: 5px;
 	color: black;
 	text-shadow: 2px 2px 5px lightskyblue;
-	background-color: linear-gradient(to top, white, transparent);
+	background: linear-gradient(to top, white 60%, transparent);
 }
 
 .ig {
@@ -200,7 +177,7 @@ footer {
 	.image img {
 		height: 500px;
 	}
-	#main_words h1 {
+	#hero h1 {
 		font-size: 3em;
 	}
 	.ig {
@@ -212,31 +189,3 @@ footer {
 		height: 370px;
 	}
 }
-
-// @media (max-width: 904px) {
-// 	.image {
-// 		width: 47%;
-// 	}
-// 	header {
-// 		font-size: 12px;
-// 	}
-// }
-
-// @media (max-width: 715px) {
-// 	#image_container {
-// 		padding: 0;
-// 	}
-// 	.image {
-// 		width: 94%;
-// 	}
-// 	header {
-// 		font-size: 8px;
-// 	}
-// 	footer {
-// 		font-size: 10px;
-// 	}
-// 	.ig {
-// 		width: 8%;
-// 		height: 8%;
-// 	}
-// }

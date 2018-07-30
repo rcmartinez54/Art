@@ -19,18 +19,12 @@ function closeModal() {
 
 $(document).ready(function(){
 
-	$('#main_words').css({'background': 'linear-gradient(to left, white, lightblue, white, lightblue, white'});
-
-	$('#images').hide();
-
-	$('#click').hide();
-	$('#click').fadeIn(5000);
-
-	$('#click').click(function() {
-    	$('#images').fadeIn(3000);
-    	$('#click').html("<h5>Hope you like them!</h5>");
-    	$('#click').slideUp(5000);
-    });
+	(function () {
+		$('#hero h1').fadeIn(500, function () {
+			$('#hero span').delay(1000).fadeIn(500);
+			console.log('hello');
+		});
+	})();
 
     $("#images").on("click", ".image", function(){
     	let $selectedImage = $(this).find('img').attr('src'),
