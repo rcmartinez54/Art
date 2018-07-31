@@ -210,9 +210,9 @@ footer {
 		margin: 5px;
 		cursor: pointer;
 	}
-	.image img {
-		height: 500px;
-	}
+	// .image img {
+	// 	height: 500px;
+	// }
 	#hero h1 {
 		font-size: 3em;
 	}
