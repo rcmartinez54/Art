@@ -10,17 +10,15 @@
 }
 
 html {
-	background: black;
 	background-size: cover;
 	font-size: 1em;
 	font-weight: 200;
 	font-family: 'Bangers', cursive;
-	max-width: 1200px;
 	margin: auto;
 }
 
 body {
-	background: #000;
+	background: rgba(0, 0, 0, 0.7);
 	padding-top: 150px;
 	font-family: 'Bangers', cursive;
 }
@@ -59,19 +57,32 @@ header span {
 #image_container .row {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0 4px;
+	padding: 0 10px;
 }
 
 #image_container .row .column {
 	flex: 25%;
 	max-width: 34%;
-	padding: 0 4px;
+	padding: 0 10px;
 }
 
 #image_container .row .column img {
 	margin-top: 8px;
 	vertical-align: middle;
 	width: 100%;
+	border: 5px solid #000; 
+}
+
+#image_container .oils {
+	color: white;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.oils p {
+	text-align: center;
+	font-size: 28px;
+	letter-spacing: 2px;
 }
 
 // #images {
@@ -214,18 +225,17 @@ footer {
 
 
 @media only screen and (max-width: 1088px) and (min-width: 680px) {
-	.image {
-		width: 48.5%;
-		float: left;
-		margin: 5px;
+	#image_container .row .column {
+		flex: 50%;
+		max-width: 50%;
 		cursor: pointer;
 	}
 }
 
 @media only screen and (max-width: 679px) and (min-width: 300px) {
-	.image {
-		width: 97.5%;
-		margin: 5px;
+	#image_container .row .column {
+		flex: 51%;
+		max-width: 100%;
 		cursor: pointer;
 	}
 	#hero h1 {
