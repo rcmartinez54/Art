@@ -4,6 +4,7 @@ let $overlay = $('#overlay'),
 	$modal = $('#modal'),
 	$addImg = $('#add_img'),
 	$modalWords = $('#modal h3');
+	
 
 function openModal() {
 	$overlay.fadeIn(500);
